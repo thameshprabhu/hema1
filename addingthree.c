@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<string.h>
-int main()
+void main()
 {
 char str[10],*str1[10];
-int i,l;
+int i,len;
 printf("enter the string");
 scanf("%[^\n]s",&str);
-l=strlen(str);
+len=strlen(str);
 for(i=0;i<l;i++)
 {
   if(str[i]=='y')
@@ -45,5 +45,4 @@ else
   printf("%c",str[i]);
 }
 }
-return 0;
 }
